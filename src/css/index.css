@@ -1,8 +1,11 @@
-:root {
+* {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: black;
+}
+
+:root {
   background-color: rgb(249, 227, 227);
 }

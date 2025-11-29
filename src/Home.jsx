@@ -1,7 +1,15 @@
+import Footer from "./Footer"
+import Nav from "./Nav"
+import './css/Nav.css'
+
 function Home() {
     return (
         <>
-        Hi
+        <Nav />
+
+        
+
+        <Footer />
         </>
     )
 }

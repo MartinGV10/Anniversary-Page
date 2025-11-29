@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgb(230, 158, 158), rgb(248, 189, 189));
+    padding: 20px;
+    padding-right: 30px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600;
+}
+
+.nav-tit {
+    cursor: pointer;
+    transition: 0.1s all;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.nav-tit:hover {
+    color: white;
+    background-color: rgb(255, 110, 110);
+}
