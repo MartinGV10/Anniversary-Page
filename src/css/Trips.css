@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3, 350px);
     gap: 40px;
     margin-top: 20px;
+    font-weight: 500;
 }
 
 .t-item {

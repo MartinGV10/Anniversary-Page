@@ -1,4 +1,4 @@
-.about-cont, .trips-cont, .vid-cont, .pics-cont, .close-cont {
+.about-cont, .trips-cont, .vid-cont, .pics-cont, .close-cont, .song-cont {
     display: flex;
     justify-content: center;
     align-items: center;

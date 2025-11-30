@@ -1,0 +1,39 @@
+.pic-items {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 40px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.pics {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.2s all;
+    /* width: 300px; */
+}
+
+.pics:hover {
+    transform: scale(1.1);
+    /* transform: translateY(-5px); */
+}
+
+.pics img {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}

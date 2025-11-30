@@ -9,6 +9,7 @@ import Nav from "./Nav"
 import './css/Nav.css'
 import { useState } from 'react'
 import Songs from './Songs'
+import Notes from './Notes'
 
 function Home() {
     const [page, setPage] = useState('about')
@@ -25,6 +26,7 @@ function Home() {
                 { page === 'songs' && <Songs />}
                 { page === 'video' && <Video />}
                 { page === 'close' && <Close />}
+                { page === 'notes' && <Notes />}
             </div>
 
             <Footer />
