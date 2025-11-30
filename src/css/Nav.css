@@ -1,17 +1,22 @@
 .nav {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to right, rgb(230, 158, 158), rgb(248, 189, 189));
     padding: 20px;
+    padding-bottom: 15px;
     padding-right: 30px;
+    margin-bottom: 50px;
+    gap: 10px;
 }
 
 .nav-items {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
