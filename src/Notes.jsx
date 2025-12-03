@@ -80,7 +80,7 @@ function Notes() {
                                 <h3 className="n-text">It's okay to be nervous, it's only natural and you'll do great!</h3>
                             </div>
                             <div className="n-item">
-                                <h3 className="n-text">Focus, relax, concentrate and the goal</h3>
+                                <h3 className="n-text">Focus, relax, concentrate on the goal</h3>
                             </div>
                             <div className="n-item">
                                 <h3 className="n-text">You've prepared so much for this, go show what you can do!</h3>
@@ -96,7 +96,7 @@ function Notes() {
                                 <h3 className="n-text">It's okay baby, I'll always be here for you</h3>
                             </div>
                             <div className="n-item">
-                                <h3 className="n-text">If you need any help I'll always help, use your resources!</h3>
+                                <h3 className="n-text">You can't win every battle, use this as experience to be even better!</h3>
                             </div>
                             <div className="n-item">
                                 <h3 className="n-text">Everything happens for a reason, this doesn't define who you are</h3>
@@ -108,20 +108,24 @@ function Notes() {
                     </div>
 
                     <div className="n-group">
-                        <h2 className="group-head">Important Bible Quotes</h2>
+                        <h2 className="group-head">Some Bible Quotes bc Why Not</h2>
                         <span className="divider2"></span>
                         <div className="stuff">
                             <div className="n-item">
-                                <h3 className="n-text">“And now these three remain: faith, hope and love. But the greatest these is love.” — 1 Corinthians 13:13</h3>
+                                <h3 className="n-text">“And now these three remain: faith, hope and love. But the greatest these is love.”</h3>
+                                <p className="cite">1 Corinthians 13:13</p>
                             </div>
                             <div className="n-item">
-                                <h3 className="n-text">“Be on your guard; stand firm in the faith; be courageous; be strong.” — 1 Corinthians 16:13</h3>
+                                <h3 className="n-text">“Be on your guard; stand firm in the faith; be courageous; be strong.”</h3>
+                                <p className="cite">1 Corinthians 16:13</p>
                             </div>
                             <div className="n-item">
-                                <h3 className="n-text">“Don't be afraid, for I am with you. Don't be discouraged, for I am your God. I will strengthen you and help you. I will hold you up with my victorious right hand” Isaiah 41:10</h3>
+                                <h3 className="n-text">“Don't be afraid, for I am with you. Don't be discouraged, for I am your God. I will strengthen you and help you. I will hold you up with my victorious right hand”</h3>
+                                <p className="cite">Isaiah 41:10</p>
                             </div>
                             <div className="n-item">
-                                <h3 className="n-text">“Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.” — Ephesians 4:32</h3>
+                                <h3 className="n-text">“Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.”</h3>
+                                <p className="cite">Ephesians 4:32</p>
                             </div>
                         </div>
                     </div>

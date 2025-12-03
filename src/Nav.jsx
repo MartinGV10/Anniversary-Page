@@ -2,7 +2,7 @@ function Nav({ setPage }) {
     return (
         <>
         <div className="nav">
-            <h1 className="title">Placeholder</h1>
+            <h1 className="title">Our Little Happi Familia</h1>
             <div className="nav-items">
                 <p className="nav-tit" onClick={() => setPage('about')}>❤️ About ❤️</p>
                 <p className="nav-tit" onClick={() => setPage('trips')}>✈️ Trips ✈️</p>
