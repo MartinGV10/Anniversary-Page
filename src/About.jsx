@@ -39,8 +39,11 @@ function About() {
                 <h1>Hi!</h1>
                 <span className="divider"></span>
                 <img src={top} alt="placeholder" className='top-pic'/>
-                <p className="note">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+                <p className="note">Hi baby, Happy Anniversary! I love you so much and I'm so glad that we've been able to spend the past year making so many fun memories and making each other better by working towards each other. I've grown so much in the past year and I couldn't have done it without you. We've had so many moments in the past 365 days, good and bad, but the most important thing is that we've grown to learn about each other more with each passing day! It feels like it was just yesterday that we met for the first time. I still get butterflies talking to you lol. <br /><br /> I figured that, since you helped me find my love with programming again, that I'd do something about it! So I decided to commemorate our 1 year anniversary by making this website to keep a record of our time together. Over time I'll develop it more so we can be able to add images to it  and stuff and improve how it looks and how it functions. I really hope that, alongside your actual gift, you love this just as much as I do because I made it with so much love and care. I love you so much baby, I'm so happy that we've been able to live so much life together, and I can't wait to see what the future has in store for us! <br /><br /><p className="love">❤️❤️❤️I love you!!!❤️❤️❤️</p></p>
 
+                <span className="divider2"></span>
+
+                <h1 className="title">Some Facts About Us!</h1>
                 <div className="facts">
                     <div className="f-item">
                         <h2 className="f-title">Time Together</h2>
@@ -107,7 +110,7 @@ function About() {
                     </div>
                 </div>
 
-                
+
             </div>
         </>
     )
