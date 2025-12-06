@@ -8,8 +8,8 @@ function Nav({ setPage }) {
                 <p className="nav-tit" onClick={() => setPage('trips')}>✈️ Trips ✈️</p>
                 <p className="nav-tit" onClick={() => setPage('songs')}>🎶 Songs 🎶</p>
                 <p className="nav-tit" onClick={() => setPage('pictures')}>📷 Pictures 📷</p>
-                <p className="nav-tit" onClick={() => setPage('video')}>📽️ Video 📽️</p>
-                <p className="nav-tit" onClick={() => setPage('notes')}>📝 Notes 📝</p>
+                <p className="nav-tit" onClick={() => setPage('letter')}>📝 Letters 📝</p>
+                <p className="nav-tit" onClick={() => setPage('notes')}>📓 Notes 📓</p>
             </div>
         </div>
         </>

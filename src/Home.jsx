@@ -1,5 +1,5 @@
 import Close from './Close'
-import Video from './Video'
+import Letter from './Letters'
 import About from './About'
 import Pics from './Pics'
 import Trips from './Trips'
@@ -24,7 +24,7 @@ function Home() {
                 { page === 'trips' && <Trips />}
                 { page === 'pictures' && <Pics />}
                 { page === 'songs' && <Songs />}
-                { page === 'video' && <Video />}
+                { page === 'letter' && <Letter />}
                 { page === 'close' && <Close />}
                 { page === 'notes' && <Notes />}
             </div>

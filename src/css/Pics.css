@@ -1,6 +1,6 @@
 .pic-items {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(4, 350px);
     gap: 40px;
     margin-top: 20px;
     font-weight: 500;
@@ -26,15 +26,22 @@
 }
 
 .pics img {
-    border: 1px solid black;
+    border: 3px solid rgb(245, 177, 177);
     border-radius: 10px;
+    max-width: 80%;
+    transition: 0.2s all;
+    margin-bottom: 7px;
 }
 
 .text {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     font-weight: 500;
+}
+
+.pics img:hover {
+    transform: scale(1.05);
 }
