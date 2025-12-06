@@ -9,7 +9,7 @@ function Trips() {
             <div className="trips-cont">
                 <h1>Trips!</h1>
                 <span className="divider"></span>
-                <h2>Nothing is better than going away with you!</h2>
+                <h2 className='title'>Nothing is better than going away with you!</h2>
                 <div className="trip-items">
                     <div className="t-item">
                         <img src={sarasota} alt="plcaeholder" className='item-img'/>
