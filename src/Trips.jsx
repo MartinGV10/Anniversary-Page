@@ -33,7 +33,7 @@ function Trips() {
                         <img src={fm} alt="plcaeholder" className='item-img'/>
                         <div className="t-top">
                             <h3 className="t-title">Fort Myers</h3>
-                            <p className="t-date"><i>July 2025</i></p>
+                            <p className="t-date"><i>August 2025</i></p>
                         </div>
                         <p className="t-desc">Last time getting together in the summer before school</p>
                     </div>
