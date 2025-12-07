@@ -45,3 +45,38 @@
 .pics img:hover {
     transform: scale(1.05);
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .pic-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 15px;
+    padding: 0 10px;
+  }
+
+  .pics {
+    padding: 8px;
+  }
+
+  .pics img {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .pic-items {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .pics {
+    padding: 10px;
+    border: 3px solid rgb(245, 177, 177);
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+}

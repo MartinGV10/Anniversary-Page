@@ -35,3 +35,52 @@
 .nav-title {
     font-size: 1.9rem;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .nav {
+    padding: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    gap: 15px;
+  }
+
+  .nav-items {
+    gap: 25px;
+    font-size: 1rem;
+  }
+
+  .nav-title {
+    font-size: 1.5rem;
+  }
+
+  .nav-tit {
+    padding: 3px 8px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    padding: 12px;
+    margin-bottom: 20px;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .nav-items {
+    gap: 15px;
+    font-size: 0.85rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-title {
+    font-size: 1.3rem;
+  }
+
+  .nav-tit {
+    padding: 3px 6px;
+    font-size: 0.8rem;
+  }
+}
