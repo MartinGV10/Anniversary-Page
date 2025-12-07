@@ -9,7 +9,7 @@
 :root {
   background-color: rgb(255, 215, 215);
   /* background-color: rgb(249, 227, 227); */
-  background-image: url('src/assets/download.gif');
+  background-image: url('public/download.gif');
   background-attachment: fixed;
   background-size: 200px;
 }
